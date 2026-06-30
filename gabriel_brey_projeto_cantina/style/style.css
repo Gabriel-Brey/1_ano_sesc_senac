@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #ffff;
+    color: #222;
+}
+
+header{
+    background-color: #4671a5;
+    padding: 25px;
+    position: sticky;
+    top:0;
+}
+
+nav ul{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    list-style: none;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: #f68c1e;
+}
+
+main {
+    width: 90%;
+    margin: 30px auto;
+}
+ /* Cantina*/
+.figure .img {
+   margin-left: 10%;
+   width: 80%;
+   display:flex
+}
+/*promoção*/
+.promocao{
+   margin-left: 10%;
+   width: 80%;
+   display:flex
+}
+/*cardapio*/
+.cardapio{
+    text-align: center;
+}
+
+.article{
+  text-align: center;
+  padding: 40px;
+}
+
+.articleh1{
+    padding: 30px;
+}
+
+/*senac*/
+.senac{
+  background-color:#4671a5;
+  width: 250px;
+  display: flex;
+}
+
+.rodape{
+     background-color: #4671a5;
+    padding: 10px;
+    position: sticky;
+    top:0;
+}
+
+.tela{
+    text-align: center;
+    padding: 30px;
+}
+
+.escola{
+    text-align: center;
+}
+
+
+ /*LINHA SEPARADORA*/
+
+    hr{
+        margin: 40px 0;
+        border: none;
+        height: 2px;
+        background-color: #ddd;
+    }
+
+ .pagamento ul{
+    list-style: decimal;
+ }
+
+ .horario ul{
+    list-style-type: disc;
+    margin-left: 75%;
+    margin-top: -5%;
+ }
+
+    .formulario  .form-cta{
+       width: 60%;
+       background-color: #4671a5;
+       border-radius: 24px;
+       padding: 30px;
+       
+    }
+    .form-cta h3{
+        text-align: center;
+        padding-bottom:25px;
+        font-size: 32px;
+        font-weight: 600;
+        color: #f68c1e;
+        font-family: 'Arial Narrow Bold';
+    }
+
+    .lead-form{
+        display:flex;
+        flex-direction: column;
+        gap: 20px;
+        
+    }
+
+    .form-row{
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+    }
+
+    .botao {
+        width: 30%;
+        border-radius: 24px;
+        background-color: #f68c1e;
+       margin-left: 35%;
+        
+    }
+
+    .formulario{
+        margin-left: 30%;
+    }
+  
+
+
+footer p{
+    text-align: center;
+    color: aliceblue;
+}
